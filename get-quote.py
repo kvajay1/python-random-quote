@@ -1,9 +1,10 @@
 
-
+ def primary():
   f = open("quotes.txt")
   quotes = f.readlines()
   f.close()
 
-  print(quotes[0])
-
+  print(quotes)
+if __name__ == "__primary__":
+  primary()
 
